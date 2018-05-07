@@ -1,0 +1,1 @@
+﻿export let SiteProps: { SiteURL: string } = { SiteURL: "" };

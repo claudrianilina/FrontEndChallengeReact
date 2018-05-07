@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+<div id="react-app">Loading...</div>
+<div id="settings" data-url="@Configuration.GetSection("Settings:UrlAPI").Value"></div>
+@section scripts {
+    <script src="~/dist/main.js" asp-append-version="true"></script>
+}
