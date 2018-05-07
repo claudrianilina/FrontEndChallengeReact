@@ -14,6 +14,4 @@ or the play button with the text **IIS Express**.
 2. Execute the command **npm install**. 
 3. Execute the following command **npm run test:cypress**. It should open a testing program.
 4. Go to the cypress.json file and change the baseUrl port by the one that open the aplicattion in localhost.
-3. Select the **App.e2e.js** file to run the test.
-
-Public URL: http://frontendchallengereact20180504013212.azurewebsites.net/phones
+5. Select the **App.e2e.js** file to run the test.
